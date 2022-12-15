@@ -1,0 +1,67 @@
+@import "_available";
+@import "_flex";
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.user{
+    .hours{
+        background-color: $secondary;
+        color:$bglight;
+        padding: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        p{
+            
+        }
+        span{
+            border:1px solid $border;
+            background-color: $background;
+            color:#333;
+            border-radius: 3px;
+            margin:0px 5px;
+            padding: 6px 12px;
+
+            &.txt{
+                background-color: $secondary;
+                border: none;
+                color: $bglight;
+                margin:0px;
+            }
+        }
+    }
+    .container{
+        .header-main-left{
+            span{
+                nav{
+                    ul{
+                        li{
+                            a{
+
+                            }
+                            ul{
+                                a{
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .logo{
+            img{
+
+            }
+        }
+        .card{
+            ul{
+
+                li{
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+}
